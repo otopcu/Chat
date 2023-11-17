@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatFd", "ChatFd\ChatFd.csproj", "{96CA38E5-E606-4096-9F9F-53B5C7131BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{D7BD82EA-BBAE-4A3A-93ED-CDCD5D4FAC89}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96CA38E5-E606-4096-9F9F-53B5C7131BB6}.Debug|x86.ActiveCfg = Release|x86
+		{96CA38E5-E606-4096-9F9F-53B5C7131BB6}.Debug|x86.Build.0 = Release|x86
+		{96CA38E5-E606-4096-9F9F-53B5C7131BB6}.Release|x86.ActiveCfg = Release|x64
+		{96CA38E5-E606-4096-9F9F-53B5C7131BB6}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED860EA2-2D68-4A7E-987F-12471F7A459A}
+	EndGlobalSection
+EndGlobal
