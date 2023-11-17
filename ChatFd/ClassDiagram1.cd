@@ -10,6 +10,7 @@
       <Field Name="Som" />
       <Field Name="simManager" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Chat.CSimulationManager" Collapsed="true">
     <Position X="0.75" Y="0.75" Width="1.75" />
