@@ -41,13 +41,13 @@ namespace Chat
           federate.Som.UserOC.Name = "ObjectRoot.User";
           federate.Som.ChatIC.Name = "InteractionRoot.Chat";
           federate.Som.UserOC.PrivilegeToDelete.Name = "privilegeToDelete";
-          federate.FederationExecution.FDD = @".\SimGe_Chat.fed";
+          federate.FederationExecution.FDD = @".\FDDs\SimGe_Chat.fed";
           break;
         case RTILibraryType.HLA1516e_Portico:
         case RTILibraryType.HLA1516e_OpenRti:
           federate.Som.UserOC.Name = "HLAobjectRoot.User";
           federate.Som.ChatIC.Name = "HLAinteractionRoot.Chat";
-          federate.FederationExecution.FDD = @".\SimGe_Chat.xml";
+          federate.FederationExecution.FDD = @".\FDDs\SimGe_Chat.xml";
           break;
         default:
           break;
