@@ -170,7 +170,9 @@
     </Compile>
     <None Include="app.config" />
     <None Include="ClassDiagram1.cd" />
-    <None Include="FDDs\SimGe_Chat.fed" />
+    <None Include="FDDs\SimGe_Chat.fed">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\DataSources\CUser.datasource" />
@@ -219,7 +221,9 @@
     <None Include="Resources\RACoN_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FDDs\SimGe_Chat.xml" />
+    <Content Include="FDDs\SimGe_Chat.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
